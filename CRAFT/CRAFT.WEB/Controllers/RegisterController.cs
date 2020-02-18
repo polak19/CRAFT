@@ -13,5 +13,11 @@ namespace CRAFT.WEB.Controllers
         {
             return View();
         }
+
+        public JsonResult SaveData()
+        {
+
+        }
     }
+
 }

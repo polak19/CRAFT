@@ -82,4 +82,17 @@
         $("#ShowModal").modal();
 
     }
+
+    function SaveForm() {
+        var data = $("#Registration").serialize();
+        $.ajax({
+            type: "post",
+            data: data,
+            url: "Register/SaveData",
+            success: function (result) {
+
+            }
+        });
+        
+    }
 </script>
