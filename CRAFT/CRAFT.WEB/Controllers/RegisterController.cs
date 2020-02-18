@@ -6,9 +6,9 @@ using System.Web.Mvc;
 
 namespace CRAFT.WEB.Controllers
 {
-    public class HomeController : Controller
+    public class RegisterController : Controller
     {
-        // GET: Home
+        // GET: Register
         public ActionResult Index()
         {
             return View();
